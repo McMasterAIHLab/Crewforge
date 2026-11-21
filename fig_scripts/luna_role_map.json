@@ -1,0 +1,285 @@
+{
+  "_comment": "Fill in a family label for each role name, then pass this file with --role-map. Publish it alongside your results.",
+  "_descriptions": {
+    "Adversarial Reviewer": [
+      "Challenge the leading candidate by searching for Black's strongest reply, overlooked resources, and practical failure modes"
+    ],
+    "Black Resource Skeptic": [
+      "Challenge proposed moves by searching for Black's strongest replies, counterplay, and hidden defensive resources. Stress-test lines and flag assumptions that depend on passive opposition"
+    ],
+    "Calculation Analyst": [
+      "Compare candidate moves by calculating concrete principal variations and checking forcing replies. Distinguish sound lines from plans that rely on inaccurate opponent responses"
+    ],
+    "Calculation Verifier": [
+      "Independently verify candidate variations for legality, move order, and tactical soundness. Compare plausible opponent replies and report where conclusions depend on uncertain or incomplete calculation"
+    ],
+    "Challenger": [
+      "Independently attack the leading candidate move: find opponent counterplay, hidden drawbacks, and stronger alternatives"
+    ],
+    "Defensive Analyst": [
+      "Examine Black's strongest replies, identify threats and vulnerabilities, and reject moves that permit forced damage or a lost position",
+      "Examine the opponent's strongest replies, identify threats and vulnerabilities, and test candidate moves for defensive soundness"
+    ],
+    "Defensive Auditor": [
+      "Search for the opponent\u2019s strongest replies, tactical vulnerabilities, and ways a candidate move could lose or worsen the position",
+      "Stress-test candidate moves for the opponent\u2019s strongest replies, especially tactical threats, king exposure, and overlooked defensive resources. Flag lines that rely on Black making mistakes"
+    ],
+    "Endgame": [
+      "Assess exchanges, pawn endings, winning or drawn endgames, and whether a move improves conversion prospects"
+    ],
+    "Endgame Specialist": [
+      "Assess exchanges, pawn endings, piece endings, conversion prospects, and defensive drawing chances. Highlight when a move's value depends on the likely endgame and whether simplification helps White",
+      "Assess exchanges, pawn endings, rook endings, and conversion or drawing prospects. Flag choices that enter technically difficult endings or discard a favorable endgame",
+      "Assess likely exchanges, pawn endings, piece endgames, and conversion prospects. Identify favorable simplifications and warn when an apparently advantageous trade leads to a draw or difficult defense",
+      "Assess transitions into simplified positions, pawn endings, king activity, and conversion or drawing chances. Advise whether exchanges help or hurt based on the resulting endgame",
+      "Evaluate exchanges and transitions into endgames, including technical winning chances, drawing defenses, and pawn-race details",
+      "Evaluate exchanges, pawn endings, and transitions into favorable or holdable endgames; identify precise endgame resources",
+      "Evaluate exchanges, pawn endings, king activity, and conversion or drawing prospects; flag transitions into favorable or unfavorable endgames",
+      "Evaluate exchanges, pawn endings, king activity, and conversion prospects; identify when a favorable transition is available",
+      "Evaluate exchanges, pawn endings, rook and minor-piece endings, and transitions into favorable or drawable endgames. Flag decisions whose consequences depend on precise endgame technique",
+      "Evaluate exchanges, pawn endings, rook endings, and likely transition points. Identify favorable simplifications, drawing resources, and endgame-specific inaccuracies",
+      "Evaluate exchanges, transitions, pawn endings, and technical win or draw prospects. Advise whether a proposed simplification improves White\u2019s realistic outcome",
+      "Evaluate likely endgames, conversion prospects, defensive holds, and whether exchanges improve White\u2019s objective chances",
+      "Evaluate likely simplifications, material transitions, pawn endings, and conversion or drawing prospects; flag moves that enter unfavorable endings",
+      "Evaluate likely simplifications, pawn endings, piece endgames, and conversion or drawing prospects. Flag exchanges and pawn moves whose consequences become decisive in the endgame",
+      "Evaluate likely simplifications, pawn endings, piece endgames, and conversion prospects. Identify exchanges that improve or worsen White's practical winning chances",
+      "Evaluate simplifications, likely transitions, and endgame-specific features such as king activity, passed pawns, and theoretical draws. Advise whether exchanges improve or weaken White's prospects",
+      "Evaluate simplifications, pawn endings, rook and minor-piece endings, and conversion or drawing chances. Identify when an endgame transition is favorable or when keeping pieces better serves the position",
+      "Evaluate transitions into endgames, conversion prospects, drawing resources, and precise king-and-pawn or piece endings",
+      "Evaluate transitions into endgames, including material balance, king activity, pawn races, and conversion prospects. Flag moves whose apparent gains lead to unfavorable endings",
+      "Evaluate transitions into simplified positions, material imbalances, and endgame prospects. Flag moves that improve or ruin likely conversion chances, including subtle king and pawn activity",
+      "Judge exchanges, pawn endings, piece endgames, and transitions into favorable or drawable endings. Identify endgame-specific resources that other perspectives may overlook",
+      "Judge exchanges, pawn endings, piece endgames, and transitions to simplified positions. Identify winning, drawable, or losing endgames and the plans needed to reach them",
+      "Judge exchanges, pawn endings, rook endings, and conversion prospects. Flag transitions that turn an advantage into a draw or enter an unfavorable technical ending",
+      "Judge simplifications, pawn endings, rook and minor-piece endgames, and whether an exchange improves White's practical prospects",
+      "Judge transitions into simplified positions, including pawn endings, rook endings, and conversion or drawing prospects. Advise whether exchanges and pawn moves improve the likely endgame"
+    ],
+    "Forcing Line Calculator": [
+      "Calculate checks, captures, threats, and forcing variations for candidate moves. Reject moves that fail to concrete tactical replies",
+      "Examine candidate moves through concrete checks, captures, threats, and tactical variations. Reject lines that fail to withstand accurate defensive replies",
+      "Search forcing continuations involving checks, captures, and threats; compare candidate moves through concrete variation analysis"
+    ],
+    "Forcing Line Tactician": [
+      "Find and calculate checks, captures, threats, and forcing continuations; verify candidate moves with concrete variations",
+      "Search candidate moves and calculate checks, captures, threats, and concrete tactical continuations. Challenge plans that fail to account for forcing replies",
+      "Search candidate moves for checks, captures, threats, and concrete tactical sequences; verify critical variations rather than relying on intuition"
+    ],
+    "Initiative Seeker": [
+      "Look for active, difficult-to-meet plans that seize tempo, create threats, and maximize practical pressure",
+      "Look for active, forcing choices that create difficult decisions for Black, including attacks, space gains, and dynamic sacrifices. Identify when a quiet or overly cautious move lets the engine equalize",
+      "Look for forcing attacks, space-gaining moves, and practical complications that can pressure a strong engine. Argue for active play when safer alternatives risk surrendering the initiative",
+      "Search for active moves that seize the initiative, create practical problems, and keep Black under pressure. Challenge passive choices when a sound, more forcing alternative exists"
+    ],
+    "King Safety Analyst": [
+      "Assess king exposure, attack potential, defensive coordination, and the risks of opening lines. Weigh whether an initiative or material gain is worth the resulting danger to either king",
+      "Assess king exposure, attacking chances, defensive resources, and the risks of opening lines near either king",
+      "Evaluate king exposure, attacking chances, and defensive vulnerabilities for both sides. Prioritize measures that prevent dangerous counterplay"
+    ],
+    "King Safety Auditor": [
+      "Assess threats to both kings, defensive resources, and the consequences of weakening or exposing White's position",
+      "Assess threats to both kings, defensive resources, and the consequences of weakening pawn moves or opening lines. Challenge candidate moves that invite dangerous counterplay",
+      "Assess threats to both kings, defensive resources, and the risks created by opening lines or weakening pawn moves. Challenge plans whose practical danger is underestimated",
+      "Focus on king exposure, attack potential, and defensive coordination for both colors. Challenge moves that weaken the king or allow dangerous initiative, even when they appear materially or positionally attractive",
+      "Focus on king exposure, attack trajectories, defensive resources, and threats against both kings. Challenge moves that invite dangerous counterplay even when they appear materially or positionally attractive",
+      "Prioritize threats to both kings, defensive resources, and the consequences of weakening moves. Search for opponent counterplay that candidate-move analysis might overlook",
+      "Prioritize threats to both kings, defensive resources, and vulnerabilities created by candidate moves. Challenge plans that expose White to forcing counterplay",
+      "Prioritize threats to both kings, identify vulnerable squares and defensive resources, and flag moves that expose White to dangerous counterplay. Scrutinize candidate moves for immediate opponent threats",
+      "Scrutinize king exposure, defensive resources, and opponent counterplay; flag moves that create dangerous or irreversible vulnerabilities"
+    ],
+    "King Safety Sentinel": [
+      "Focus on threats to both kings, defensive resources, and the risks of weakening our own king or allowing a dangerous attack"
+    ],
+    "King Safety Skeptic": [
+      "Challenge candidate moves by examining king exposure, opponent counterplay, and practical defensive resources. Seek the most dangerous replies and flag moves whose risks may outweigh their benefits",
+      "Challenge candidate moves by examining the opponent\u2019s strongest replies, king exposure, defensive resources, and counterplay"
+    ],
+    "Kingsafety": [
+      "Evaluate threats to the king, defensive resources, and prophylactic moves; flag dangerous exposure before recommending an attack"
+    ],
+    "Line Verifier": [
+      "Check candidate moves for legality, concrete opponent replies, tactical oversights, and consistency of proposed variations. Flag unsupported evaluations and distinguish forced lines from speculative plans"
+    ],
+    "Move Auditor": [
+      "Independently verify candidate moves for legality, opponent replies, hanging pieces, and overlooked tactical or strategic drawbacks"
+    ],
+    "Opening Researcher": [
+      "Evaluate opening principles, known theoretical ideas, and practical ways to reach positions with clear plans while avoiding dubious traps",
+      "In opening positions, identify established plans, known move-order issues, and relevant theoretical alternatives; distinguish reliable knowledge from uncertain recollection",
+      "Use opening principles and known repertoire ideas to seek sound, purposeful development and avoid dubious early deviations"
+    ],
+    "Opening Specialist": [
+      "Identify opening principles, known structures, development priorities, and relevant theoretical ideas. Recommend practical continuations while distinguishing sound principles from unsupported claims of memorized theory",
+      "Prioritize sound opening development, central control, and practical lines that avoid unnecessary early concessions. Flag traps and deviations from established principles"
+    ],
+    "Positional Planner": [
+      "Assess pawn structure, piece activity, space, weak squares, and long-term plans. Compare candidate moves by the quality of the resulting position, not just immediate threats",
+      "Assess pawn structure, piece activity, weak squares, and long-term plans. Compare quiet improving moves with immediate tactical or attacking options",
+      "Evaluate pawn structure, piece activity, space, and long-term plans when tactics do not decide the move"
+    ],
+    "Positional Strategist": [
+      "Assess pawn structure, piece activity, king safety, and plans beyond the immediate move. Compare candidate positions for durable advantages",
+      "Assess pawn structure, piece activity, space, and endgame prospects; propose plans when no forcing continuation decides the position",
+      "Assess pawn structure, piece activity, space, and long-term plans; recommend improvements when no immediate tactic decides the position",
+      "Assess pawn structure, piece activity, space, and plans beyond immediate tactics. Recommend moves that improve the position and constrain Black",
+      "Assess pawn structure, piece activity, space, weak squares, and long-term plans when tactics do not decide the choice",
+      "Assess pawn structure, piece activity, space, weak squares, and long-term plans. Compare candidate moves when no immediate tactic settles the choice",
+      "Assess pawn structure, piece activity, space, weak squares, and plans beyond the next few moves. Recommend moves that improve the position and compare strategic tradeoffs",
+      "Assess pawn structure, piece activity, space, weak squares, and plans; compare candidate moves by their lasting strategic benefits",
+      "Assess pawn structures, piece activity, king safety, and long-term plans. Identify strategic improvements when no decisive tactic is available",
+      "Assess pawn structures, piece activity, space, and long-term plans. Compare candidate moves by the quality of the resulting positions rather than immediate threats alone",
+      "Assess piece activity, pawn structure, king safety, and plans beyond immediate tactics; propose moves that improve the position",
+      "Assess plans, pawn structure, piece activity, and long-term imbalances. Identify candidate moves that improve the position even when no immediate tactic exists",
+      "Evaluate pawn structure, king safety, piece activity, weaknesses, and plans across the middlegame. Identify candidate moves that improve the position without requiring a forced tactic",
+      "Evaluate pawn structure, piece activity, king safety, and long-term plans when tactics do not decide the move",
+      "Evaluate pawn structure, piece activity, king safety, and long-term plans. Seek durable advantages when no immediate tactic decides the position",
+      "Evaluate pawn structure, piece activity, king safety, space, and long-term plans. Compare moves by the quality of the resulting position rather than immediate threats alone",
+      "Evaluate pawn structure, piece activity, space, and long-term plans. Seek improvements that strengthen the position even when no immediate tactic is available",
+      "Evaluate pawn structure, piece activity, space, and long-term plans; identify candidate moves that improve the position without relying on tactics",
+      "Evaluate pawn structure, piece activity, space, and long-term plans; recommend durable improvements when no tactic is decisive. Assess whether exchanges and pawn advances improve the position",
+      "Evaluate pawn structure, piece activity, space, and plans; compare candidate moves by their long-term positional effects",
+      "Evaluate pawn structure, piece activity, space, weak squares, and plans beyond immediate tactics. Compare candidate moves by the durable advantages they create",
+      "Evaluate piece activity, pawn structure, space, weak squares, and long-term plans. Favor durable improvements when tactics do not dictate play"
+    ],
+    "Practical Challenger": [
+      "Assess practical winning chances against a strong engine, favoring resilient positions and useful complications when objectively sound",
+      "Challenge each proposed move by searching for Black's strongest practical and engine-like reply. Compare candidate moves for robustness, avoiding plans that depend on a single inaccurate response",
+      "Challenge the leading candidate by searching for the opponent's strongest reply and comparing practical risk, clarity, and resilience against engine-strength play",
+      "Stress-test candidate moves for opponent resources, practical resilience, and avoidable risk. Seek the strongest playable choice rather than trusting attractive plans without adversarial scrutiny"
+    ],
+    "Practical Chances Analyst": [
+      "Seek sound ways to create difficult decisions, initiative, and winning chances against a powerful engine. Weigh practical pressure against objective risk"
+    ],
+    "Practical Defense Analyst": [
+      "Adopt Black's perspective to identify the opponent's strongest replies, defensive resources, and counterplay. Prefer robust choices that remain sound across plausible responses rather than relying on one narrow line"
+    ],
+    "Practical Play Analyst": [
+      "Compare objectively sound options by practical winning chances, risk, and the complexity they impose on Black. Favor ambitious but defensible choices when the position calls for playing for a win",
+      "Compare viable moves for practical resilience, manage risk when facing a strong engine, and flag lines that depend on fragile precision"
+    ],
+    "Practical Risk Analyst": [
+      "Assess likely best replies, practical danger, and the cost of granting Stockfish counterplay. Compare ambitious candidates with safer choices without assuming that a superficially solid move is best",
+      "Assess practical prospects against a strong engine, weighing objective soundness against initiative, complexity, and the chance to keep winning chances alive"
+    ],
+    "Practical Risk Auditor": [
+      "Challenge proposed moves for opponent counterplay, robustness, and practical failure modes; favor sound options that withstand accurate defense"
+    ],
+    "Practicality Analyst": [
+      "Compare sound candidate moves by practical resilience: clarity, risk, counterplay, and likelihood of maintaining a playable position against strong engine defense. Challenge plans that are theoretically sound but difficult to execute"
+    ],
+    "Prophylaxis Analyst": [
+      "Identify the opponent's strongest threats, defensive resources, and ways to reduce counterplay. Scrutinize candidate moves for avoidable king danger and tactical vulnerabilities"
+    ],
+    "Prophylaxis Auditor": [
+      "Look for the opponent\u2019s strongest replies, hidden threats, and defensive resources. Audit proposed moves for blunders and vulnerabilities"
+    ],
+    "Risk Assessor": [
+      "Look for opponent counterplay, king exposure, tactical vulnerabilities, and ways a move could fail. Prefer robust choices when sharper alternatives depend on narrow or difficult-to-maintain advantages"
+    ],
+    "Risk Auditor": [
+      "Evaluate candidate moves from Black's strongest likely reply, looking for counterplay, tactical vulnerabilities, and avoidable draw or loss risks. Challenge lines that depend on passive or implausible defense"
+    ],
+    "Risk Evaluator": [
+      "Compare candidate lines by objective soundness, evaluation stability, and practical downside against strong engine play. Flag speculative sacrifices or unnecessary complications when safer advantages exist"
+    ],
+    "Safety Auditor": [
+      "Adopt Black's perspective to identify threats, tactical refutations, vulnerabilities, and practical risks in proposed moves. Prioritize soundness and avoid choices that give Stockfish easy counterplay",
+      "Challenge candidate moves by searching for the opponent\u2019s strongest replies, blunders, and overlooked defensive resources. Favor reliable choices when speculative alternatives offer little extra value",
+      "Stress-test candidate moves for the opponent\u2019s strongest responses, king danger, material losses, and practical blunders"
+    ],
+    "Stockfish Exploiter": [
+      "Seek resilient, practical choices that make the engine prove its advantage, while identifying forcing resources, perpetual-check chances, and counterplay. Scrutinize whether a line is sound against precise defense"
+    ],
+    "Strategic Planner": [
+      "Assess pawn structure, piece activity, king safety, and plans beyond the next few moves. Compare candidate moves by their durable positional benefits",
+      "Assess pawn structure, piece placement, king safety, and long-term plans. Prefer sound improvements and durable advantages when tactics do not decide the position",
+      "Evaluate plans, pawn structures, piece activity, king safety, and long-term positional improvements. Compare candidate moves by the quality of the resulting positions, not just immediate tactics"
+    ],
+    "Strategist": [
+      "Assess pawn structure, piece activity, and long-term plans; compare candidate moves by positional value"
+    ],
+    "Tactical Analyst": [
+      "Calculate forcing lines, checks, captures, threats, and tactical resources for candidate moves. Identify concrete refutations and verify whether proposed combinations actually work",
+      "Find forcing moves, calculate concrete variations, and identify tactical opportunities or threats. Challenge quiet plans when a sharper line may win material or seize initiative",
+      "Search for forcing lines, captures, checks, mating threats, and tactical resources. Verify candidate variations concretely rather than relying on strategic impressions",
+      "Search for forcing lines, captures, checks, threats, and tactical refutations. Verify candidate moves with concrete variation analysis rather than relying on positional impressions",
+      "Search for forcing lines, combinations, threats, and concrete tactical opportunities for either side. Present candidate moves with variations and identify the opponent\u2019s strongest tactical reply",
+      "Search for forcing moves, calculate candidate variations, and identify tactical opportunities or immediate combinations",
+      "Search for forcing moves, calculate concrete variations, and identify tactical resources for both sides. Challenge attractive plans that fail to immediate calculation",
+      "Search for forcing moves, combinations, and concrete tactical threats for both sides. Challenge quiet recommendations when a forcing line may win material or deliver mate",
+      "Search forcing lines involving checks, captures, threats, and sacrifices; verify candidate moves against concrete tactical replies",
+      "Search forcing lines, calculate captures and checks, and identify tactical threats for both sides. Flag candidate moves that fail to concrete replies",
+      "Search forcing lines, combinations, checks, captures, and concrete tactics for both sides. Present candidate moves with principal variations and identify tactical opportunities others may overlook"
+    ],
+    "Tactical Calculator": [
+      "Analyze forcing lines, captures, checks, and threats; verify candidate moves for tactical refutations several moves deep",
+      "Analyze forcing lines, checks, captures, threats, and concrete move sequences for both sides. Reject candidate moves that fail to a tactical reply",
+      "Analyze forcing lines, checks, captures, threats, and concrete tactical consequences for candidate moves. Reject moves that fail to withstand accurate calculation",
+      "Calculate forcing lines, identify tactical opportunities and threats, and compare candidate moves through concrete variations",
+      "Calculate forcing lines\u2014checks, captures, threats\u2014and identify concrete tactical opportunities or refutations. Compare candidate moves by analyzing variations rather than relying on intuition",
+      "Generate and verify forcing lines involving checks, captures, threats, and tactical combinations. Identify candidate moves whose consequences require exact calculation",
+      "Search forcing lines involving checks, captures, threats, and tactical sequences; report concrete variations and their outcomes",
+      "Search forcing lines, including checks, captures, threats, and tactical resources for both sides. Verify candidate moves against concrete variations rather than relying on intuition",
+      "Search forcing lines\u2014checks, captures, threats, and candidate-move variations\u2014and identify concrete tactical opportunities or refutations",
+      "Search forcing lines\u2014checks, captures, threats, and concrete combinations\u2014and identify tactical refutations of candidate moves",
+      "Search forcing lines\u2014checks, captures, threats, and tactical defenses\u2014and identify concrete candidate moves. Report variations and the assumptions they depend on"
+    ],
+    "Tactical Forcer": [
+      "Search for forcing moves, concrete threats, sacrifices, and tactical sequences for White. Present principal variations and identify the opponent's strongest defensive replies"
+    ],
+    "Tactician": [
+      "Search forcing moves, calculate concrete variations, and identify tactical opportunities or refutations"
+    ],
+    "Technical Endgame Specialist": [
+      "Evaluate likely transitions into simplified positions, including pawn endings, piece activity, and conversion or drawing prospects. Flag exchanges that improve or worsen the eventual endgame"
+    ],
+    "Threat Auditor": [
+      "Focus on Black's best replies, tactical threats, and defensive resources; test whether proposed moves leave vulnerabilities. Prioritize avoiding blunders and accurately identifying urgent threats",
+      "View the position from Black\u2019s perspective: identify the strongest threats, tactical resources, and likely engine replies. Stress-test proposed moves for hidden weaknesses and defensive necessities"
+    ]
+  },
+  "Endgame Specialist": "endgame",
+  "Positional Strategist": "positioning",
+  "Tactical Calculator": "tactical",
+  "Tactical Analyst": "tactical",
+  "King Safety Auditor": "defense",
+  "Initiative Seeker": "attack",
+  "Practical Challenger": "defense",
+  "Strategic Planner": "positioning",
+  "Forcing Line Tactician": "tactical",
+  "Forcing Line Calculator": "tactical",
+  "Positional Planner": "positioning",
+  "Safety Auditor": "defense",
+  "Opening Researcher": "opening",
+  "King Safety Analyst": "defense",
+  "Defensive Auditor": "defense",
+  "Practical Play Analyst": "defense",
+  "Threat Auditor": "defense",
+  "Opening Specialist": "opening",
+  "King Safety Skeptic": "defense",
+  "Practical Risk Analyst": "anti-engine",
+  "Defensive Analyst": "defense",
+  "Practicality Analyst": "defense",
+  "Risk Auditor": "defense",
+  "Practical Defense Analyst": "defense",
+  "Adversarial Reviewer": "defense",
+  "Risk Evaluator": "defense",
+  "Risk Assessor": "defense",
+  "Prophylaxis Analyst": "defense",
+  "King Safety Sentinel": "defense",
+  "Move Auditor": "tactical",
+  "Tactical Forcer": "tactical",
+  "Line Verifier": "tactical",
+  "Technical Endgame Specialist": "endgame",
+  "Calculation Analyst": "tactical",
+  "Stockfish Exploiter": "anti-engine",
+  "Calculation Verifier": "tactical",
+  "Practical Risk Auditor": "defense",
+  "Prophylaxis Auditor": "defense",
+  "Practical Chances Analyst": "anti-engine",
+  "Black Resource Skeptic": "defense",
+  "Tactician": "tactical",
+  "Strategist": "positioning",
+  "Kingsafety": "defense",
+  "Endgame": "endgame",
+  "Challenger": "defense"
+}

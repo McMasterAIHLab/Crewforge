@@ -1,0 +1,101 @@
+# GCC Data
+**/gcc_focused_data/
+**/gcc_dashboard_data/
+**/gcc_shared_cache/
+
+# Environment file
+.env
+
+# XML multi agent memory
+unified_memory.xml
+
+# PyCache
+**/__pycache__/*
+
+# Database
+*.db
+
+# LaTeX compilation files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.dvi
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lol
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.nav
+*.nlo
+*.nls
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Editor temporary files
+.*.swp
+.*.swo
+.*.swp
+.*~
+*~
+
+# Build directories
+build/
+out/
+_output/
+dist/
+tmp/
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+ehthumbs.db  # Windows
+Desktop.ini  # Windows
+.Trash-*  # Linux
+.fuse_hidden*  # Linux
+.directory  # KDE
+
+# Special LaTeX files to keep
+!.gitignore
+!README.md
+!*.tex
+!*.bib
+!*.cls
+!*.sty
+!figures/
+!images/
+!tables/
+*.synctex(busy)
+
+# Virtual environment
+venv/
+.venv/
+src/__pycache__/
+terminal_outputs_*
+datasets/
+*exp_data.json
+.DS_Store
+
+*gcc_runs_backup*

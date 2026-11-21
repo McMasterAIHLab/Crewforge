@@ -1,0 +1,217 @@
+{
+  "_comment": "Fill in a family label for each role name, then pass this file with --role-map. Publish it alongside your results.",
+  "_descriptions": {
+    "Endgame Conversion Specialist": [
+      "Assesses whether trades and simplifications favor White's winning chances, and evaluates pawn races, king activity, and technical winning methods. Advises when to trade pieces versus keep tension",
+      "Assesses whether trades and simplifications favor White's winning chances, evaluating pawn races, king activity, and technical winning plans. Advises when to trade pieces versus keep complexity to exploit Stockfish's weaknesses",
+      "Assesses which trades and simplifications favor White's winning chances, evaluates pawn promotion races and king activity, and steers the game toward technically winning endgames",
+      "Assesses which trades and simplifications favor the team, evaluating pawn races, piece-versus-pawn imbalances, and winning technique. Judges whether a proposed line leads to a convertible advantage",
+      "Evaluates whether candidate moves preserve or improve winning chances in simplified positions, including trades, pawn races, and king activity. Advises on which exchanges convert an advantage and which waste it",
+      "Evaluates which simplifications and trades favor White's winning chances, and checks whether candidate moves lead to won or drawn endgame types",
+      "Evaluates which simplifications and trades favor White's winning chances, and judges whether a given structure or material balance can be converted. Advises on pawn promotion races and piece trades",
+      "Evaluates which trades and simplifications convert advantages into wins, using known endgame technique and piece-count reasoning. Advises when to trade pieces or push passed pawns to lock in a winning position",
+      "Evaluates which trades and simplifications favor the team, assesses pawn races, king activity, and winning technique, and advises whether to keep or exchange material"
+    ],
+    "Endgame Converter": [
+      "Assesses which trades and simplifications favor the team, evaluates pawn races and king activity, and steers the game toward technically winning endgames when material or structure favors White",
+      "Evaluates how each candidate move affects simplification and the likely endgame, favoring trades and structures that convert material advantages into wins. Judges whether a position is technically winning even if it is currently equal",
+      "Evaluates simplification choices and winning technique, judging whether trades and pawn races favor the team and how to convert advantages into a won position"
+    ],
+    "Endgame Planner": [
+      "Assesses how candidate moves affect future simplifications, pawn races, and conversion of advantages, favoring trades and structures that lead to winning endgames",
+      "Evaluates how candidate moves affect the transition into endgame, including piece trades, king activity, passed pawns, and conversion technique. Advises whether simplifying or keeping pieces better serves White's winning chances",
+      "Evaluates which simplifications and pawn or piece trades lead to winning or drawn endgames, and steers the game toward favorable technical conditions when the middlegame is balanced"
+    ],
+    "Endgame Technician": [
+      "Assesses how each candidate move affects simplification, piece trades, and winning technique in the likely endgame, including pawn promotion races and known winning patterns. Recommends trades that convert advantages and avoids trades that reduce winning chances",
+      "Assesses how the position will transform into an endgame, judging piece trades, passed pawns, king activity, and conversion technique, and flags moves that trade toward drawn or winning endings",
+      "Assesses how trades, piece simplification, and king activity affect winning chances, focusing on converting advantages and holding drawn or worse positions. Advises whether to trade pieces or keep tension",
+      "Assesses the simplification and conversion potential of each candidate, recognizing known winning techniques, opposition, and drawing fortresses. Advises on whether to trade pieces or keep tension to reach a convertible endgame",
+      "Evaluates how candidate moves affect the likely simplified endgame, including pawn races, piece trades, and conversion techniques. Helps the team steer toward winning or drawing-resistant endgames",
+      "Evaluates how candidate moves affect the likely transition to an endgame, including material simplification, pawn races, king activity, and known winning or drawing technique. Prefers moves that convert advantages cleanly",
+      "Evaluates how each candidate affects the transition to the endgame, including material balance, pawn promotion paths, king activity, and known theoretical wins or draws. Advises on simplification versus maintaining complexity",
+      "Evaluates simplification choices and converts advantages through known endgame techniques, pawn promotion races, and king activity. Advises on whether trades favor the team's winning chances",
+      "Evaluates trade decisions and piece exchanges through the lens of the resulting endgame, judging whether simplification favors White's winning chances and which conversion technique applies",
+      "Evaluates trades, pawn promotion races, and conversion techniques, judging whether simplifying lines favor the team. Advises when to trade pieces or keep tension to convert an advantage",
+      "Evaluates trades, pawn races, and simplification choices by assessing whether the resulting endgame is winning, drawn, or lost. Advises on converting material advantages and on avoiding drawn or lost simplified positions",
+      "Evaluates whether candidate moves lead to simplified positions that are winnable, recognizing known theoretical wins, drawn fortresses, and conversion techniques. Advises on trading pieces when advantageous",
+      "Evaluates whether trades and simplifications favor White's winning chances, applying known endgame principles, conversion techniques, and piece-value imbalances"
+    ],
+    "Material And Risk Auditor": [
+      "Acts as a devil's advocate: identifies the worst-case Stockfish reply for each candidate move, scores downside risk, and flags moves that trade material or weaken the king unnecessarily",
+      "Acts as a skeptic: checks every candidate for opponent replies that win material, create unstoppable threats, or expose the king. Assigns a risk rating and flags moves whose downside outweighs their upside"
+    ],
+    "Material And Safety Auditor": [
+      "Acts as a skeptic: checks every candidate for hanging pieces, undefended pieces, back-rank weaknesses, and opponent replies that win material. Vetoes moves that create unacceptable risk",
+      "Acts as a skeptic: checks every proposed move for blunders, hanging pieces, unprotected pieces, pins, forks, and opponent replies that win material. Vetoes moves that fail this check",
+      "Adversarially checks every candidate move for blunders: hanging pieces, undefended pawns, illegal or unsafe king exposure, and Stockfish's best replies. Acts as a red-team reviewer who tries to refute proposals"
+    ],
+    "Material Safety Auditor": [
+      "Acts as a risk checker focused on what can go wrong: hanging pieces, overloaded defenders, back-rank weaknesses, and Stockfish's best replies to each candidate. Vetoes moves that lose material or allow a decisive counter",
+      "Acts as a risk checker: verifies that each candidate move does not hang pieces, allow forks, pins, or discovered attacks, and quantifies the worst-case material loss",
+      "Acts as a skeptic by checking every candidate move for blunders: hanging pieces, undefended squares, illegal moves, and opponent replies that win material. Vetoes moves that fail this check",
+      "Acts as a skeptic who checks every candidate for blunders: undefended pieces, pins, discovered attacks, back-rank issues, and Stockfish's strongest replies. Vetoes any move that loses material without compensation",
+      "Acts as a skeptic who checks every candidate for hanging pieces, undefended pieces, pins, skewers, and overlooked Black counterplay. Vetoes moves that lose material without compensation",
+      "Acts as a skeptic who checks every candidate move for blunders: hanging pieces, undefended squares, illegal or unsafe king exposure, and Stockfish's strongest replies. Vetoes moves that lose material without compensation",
+      "Acts as a skeptic who checks every candidate move for blunders: pieces left undefended, squares newly exposed to attack, and opponent replies that win material. Vetoes moves that fail a safety check",
+      "Acts as a skeptic who checks every candidate move for hanging pieces, undefended pieces, illegal or unsafe moves, and opponent replies that win material. Vetoes moves that lose material without compensation",
+      "Acts as a skeptic who checks every proposed move for blunders: undefended pieces, back-rank weaknesses, discovered attacks, and Stockfish's strongest replies. Vetoes moves that carry unacceptable risk",
+      "Acts as a skeptic who checks every proposed move for hanging pieces, undefended pieces, pins, skewers, and Stockfish's most likely reply. Vetoes moves that lose material without compensation",
+      "Acts as a skeptic who stress-tests every candidate move for blunders, hanging pieces, overlooked Black captures, and checks. Its sole job is to reject moves that lose material or allow mating nets",
+      "Acts as a skeptic: challenges every proposed move by checking for hanging pieces, unprotected pieces, and Stockfish's best recaptures, and vetoes moves that lose material without compensation",
+      "Acts as a skeptical checker that identifies every piece left undefended, every square exposed to attack, and every move that allows Stockfish a strong reply or sacrifice. Vetoes candidates with unacceptable risk",
+      "Checks every candidate move for hanging pieces, undefended pawns, and simple one-move blunders, including Stockfish's replies such as checks, forks, pins, and discovered attacks. Acts as a veto on moves that lose material without compensation"
+    ],
+    "Materialist Safety Auditor": [
+      "Acts as a devil's advocate by assuming Stockfish plays the strongest reply, checking every candidate for blunders, hanging pieces, and unsound sacrifices, and rejecting moves whose downside is severe",
+      "Acts as a skeptical devil's advocate: attacks every proposed move by searching for Black's best reply, sacrifices, and hidden material losses, and rates the risk of each candidate"
+    ],
+    "Opening And Structure Analyst": [
+      "Tracks the game's opening or middlegame phase, identifies known theory and Stockfish's likely responses, and flags moves that deviate into unclear or poorly understood positions. Suggests principled development and center control"
+    ],
+    "Opening And Structure Historian": [
+      "Identifies the current opening or middlegame pattern and recalls established theory and typical plans for both sides. Warns when the team is drifting into known bad structures or deviating from sound main lines",
+      "Identifies the opening line on the board, recalls known sound plans and common traps for both sides, and flags when Stockfish's reply is a known book or theoretical move",
+      "Identifies the opening or middlegame pattern on the board, recalls established theory and typical plans, and flags when a move departs from known sound continuations",
+      "Identifies the opening or middlegame pattern on the board, recalls established theory and typical plans, and warns when a move deviates from well-known principles or leads to known traps",
+      "Identifies the opening system and its known main lines, comparing candidate moves against established theory and typical plans for both sides. Warns when the team leaves known theory into unclear territory",
+      "Identifies the opening system and its known theory, recognizes familiar middlegame pawn structures, and warns when the position departs from principled play. Suggests moves consistent with established plans",
+      "Identifies the opening system and its known theory, recognizes which Stockfish responses are likely, and recommends development moves that follow sound principles and established plans",
+      "Identifies the opening system and known theory, recalls standard plans and typical pawn structures, and flags when the position leaves known theory so the team can rely on principled development",
+      "Identifies the opening system and known theory, recognizes Stockfish's likely setup, and advises on development order and pawn breaks suited to the current position",
+      "Identifies the opening system and known theory, recognizes Stockfish's likely setups, and flags when a move departs from sound principles of development, center control, and king safety. Compares the position to established model structures",
+      "Identifies the opening system, known theory, and typical plans and pitfalls for the current position. Warns when a move departs from sound principles of development and center control",
+      "Identifies the opening system, known theory, and typical plans from the move sequence so far. Warns when the team leaves book lines or when Stockfish is likely to play a known response",
+      "Identifies the opening system, recognizes known theory and common traps for both sides, and judges whether a move follows sound development principles",
+      "Recalls established opening theory, known pawn-structure plans, and common middlegame patterns relevant to the current position, and flags when a move departs from well-tested continuations",
+      "Recognizes the opening being played, known theory and typical plans for both sides, and the pawn-structure consequences of moves. Warns when a move leaves known theory into unclear territory",
+      "Tracks the game's opening theory, known engine-resistant lines, and pawn-structure types from master games. Suggests moves that steer toward positions where White's known plans are reliable against engine play",
+      "Tracks the game's opening theory, known sound plans, and typical pawn-structure outcomes, flagging when the position leaves book and what established ideas apply. Advises on development order and known traps"
+    ],
+    "Opening And Structure Scholar": [
+      "Recognizes known opening theory, standard pawn structures, and typical plans for the current position, and checks whether candidate moves follow sound principles of development and coordination"
+    ],
+    "Opening And Structure Specialist": [
+      "Assesses moves against established opening theory and common pawn-structure themes, recognizing known plans and well-studied continuations. Warns when the position departs from principled development",
+      "Assesses opening principles, development, center control, and known theory relevant to the current position. Flags early structural weaknesses that could cost the game later",
+      "Recognizes the opening and early middlegame setup, applies established theory and principles (development, center control, king safety), and suggests moves that keep the team's position sound during the early phase"
+    ],
+    "Opening And Structure Theorist": [
+      "Assesses the current move in terms of opening principles, development, and pawn-structure consequences, drawing on known theory and typical plans. Flags moves that deviate from sound development"
+    ],
+    "Opening Theorist": [
+      "Identifies known opening theory and sound development patterns for the current position, recommending moves that follow principles such as central control, rapid development, and castling",
+      "Identifies the opening or middlegame theory, known lines, and standard plans relevant to the current position, and flags when a move departs from sound book play",
+      "Recalls established opening theory and principles (development, center control, king safety) for the early moves, and flags when the position leaves known book lines and calculation must take over",
+      "Recognizes known opening and early middlegame theory, identifies Stockfish's likely responses based on its typical play, and proposes established setups for White",
+      "Recognizes known opening and early middlegame theory, suggesting principled development moves and identifying when Stockfish's replies deviate from main lines"
+    ],
+    "Opponent Modeler": [
+      "Assesses Stockfish's tendencies, such as its strength at deep tactics and its evaluation horizon, and identifies lines that are objectively sound but complex enough to create practical chances. Suggests moves that maximize winning chances against this specific opponent",
+      "Models Stockfish's likely replies and tendencies, identifying lines where the engine's best response is hard to find or where it may be steered into imbalanced positions. Flags moves that are objectively sound but practically tricky",
+      "Models Stockfish's likely replies and tendencies, identifying which candidate moves lead to positions where the engine's best replies are hardest to find or where its evaluation horizon may be exploited. Challenges the team to consider the engine's best responses rather than assumed replies",
+      "Models Stockfish's likely replies and the engine's style and evaluation tendencies, identifying which of our candidate moves lead to positions where the engine's best reply is hardest to find or where its evaluation horizon misjudges the danger"
+    ],
+    "Positional Strategist": [
+      "Evaluates long-term factors such as pawn structure, piece activity, king safety, and control of key squares. Proposes plans that improve White's position even when no immediate tactic exists",
+      "Evaluates long-term factors such as piece activity, king safety, pawn structure, and control of key squares. Proposes plans that build advantages over many moves rather than immediate gains",
+      "Evaluates long-term factors such as piece activity, king safety, pawn structure, and control of key squares. Proposes plans that improve White's position even when no immediate tactic exists",
+      "Evaluates long-term factors such as piece activity, king safety, pawn structure, center control, and space. Proposes plans that build advantage over many moves",
+      "Evaluates long-term factors such as piece activity, king safety, pawn structure, control of central squares, and weak squares. Proposes plans that improve the team's position even when no immediate tactic exists",
+      "Evaluates long-term factors such as piece activity, king safety, pawn structure, control of squares, and space. Proposes plans that improve White's position even when no immediate tactic exists",
+      "Evaluates long-term structure: pawn formation, king safety, piece activity, control of key squares, and endgame prospects. Proposes plans that improve the position even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, and control of key squares to identify the strategic plan that best improves White's position",
+      "Evaluates pawn structure, piece activity, king safety, and control of key squares to propose moves that improve the team's long-term position. Argues for plans rather than immediate material gains",
+      "Evaluates pawn structure, piece activity, king safety, and control of key squares, proposing plans that improve White's position over several moves",
+      "Evaluates pawn structure, piece activity, king safety, and long-term plans, proposing moves that improve the team's structural advantage even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, and long-term plans, proposing quiet moves that improve the team's position even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, and space to identify durable advantages and long-term plans for White. Proposes moves that improve the position even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, control of key squares, and long-term plans. Proposes moves that improve White's position even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, control of key squares, and long-term plans. Proposes moves that improve the team's position even when no immediate tactic exists",
+      "Evaluates pawn structure, piece activity, king safety, space, and control of key squares to identify the plan that improves White's long-term chances",
+      "Evaluates pawn structure, piece activity, king safety, square control, and long-term plans, proposing moves that improve the team's position even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and control of key squares to identify durable advantages. Proposes plans that a move sequence should pursue over several turns",
+      "Evaluates piece activity, king safety, pawn structure, and control of key squares to identify the plan that gives White lasting advantage. Proposes moves that improve the position even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and control of key squares to identify the strategic plan that best improves White's position. Proposes candidate moves grounded in long-term imbalances",
+      "Evaluates piece activity, king safety, pawn structure, and control of key squares to propose moves that improve the team's long-term position. Argues for plans even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and control of key squares to propose plans that improve White's long-term position. Argues for moves that build advantages even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and long-term plans such as control of the center or outposts. Proposes moves that improve White's structural advantage even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and long-term plans such as controlling key squares or creating weaknesses in Black's position. Proposes moves that improve the team's structural advantage even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and long-term plans such as file control, outposts, and weak squares. Proposes moves that improve the team's position even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and long-term plans, proposing moves that improve the position even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, and long-term plans, proposing moves that improve the team's position even without immediate gain",
+      "Evaluates piece activity, king safety, pawn structure, central control, and long-term plans. Proposes moves that improve the position even when no immediate tactic exists",
+      "Evaluates piece activity, king safety, pawn structure, control of central squares, and long-term plans. Proposes quiet moves that improve the position even when no immediate tactic exists",
+      "Evaluates piece activity, pawn structure, king safety, and control of key squares to identify long-term plans. Proposes moves that improve the team's position even when no immediate tactic exists"
+    ],
+    "Risk And Safety Auditor": [
+      "Acts as a devil's advocate by scanning every candidate for opponent replies that create threats, hanging pieces, or perpetual-check resources. Assigns a risk rating to each candidate move",
+      "Adversarially attacks every proposed move by searching for Stockfish's best refutation, including sacrifices and tactical shots, and estimates the evaluation swing. Vetoes moves whose downside is severe"
+    ],
+    "Risk Assessor": [
+      "Identifies the downside of each candidate move, including the worst-case replies from Black, opponent counterplay, and variance. Argues against moves that are speculative or overly complicated",
+      "Identifies the downside of each candidate move, including weakened squares, exposed kings, and lines where Stockfish gains a decisive advantage. Favors moves that keep the game balanced and avoid catastrophic mistakes",
+      "Identifies the worst-case replies from Stockfish for each candidate move, estimates the downside of aggressive options, and flags moves that rely on optimistic assumptions about the opponent's play",
+      "Identifies worst-case outcomes for each candidate move, checks for material and king-safety downside, and vetoes moves whose downside outweighs their upside. Guards against overextension"
+    ],
+    "Risk Auditor": [
+      "Challenges every proposed move by identifying worst-case replies, unsound sacrifices, and blunder risks such as illegal moves, hanging pieces, or repetition traps. Acts as the devil's advocate and can veto moves that fail basic safety checks"
+    ],
+    "Safety Auditor": [
+      "Acts as a devil's advocate by examining every candidate move for Black's best replies, including sacrifices, discovered attacks, and hidden threats against the king or loose pieces. Can veto moves that lose material or allow mate"
+    ],
+    "Safety Verifier": [
+      "Adversarially checks each proposed move for blunders by considering every legal Black reply, especially checks, captures, and discovered attacks. Vetoes moves that allow unacceptable replies"
+    ],
+    "Tactical Calculator": [
+      "Scans the current position for forcing sequences, checks, captures, and threats, calculating concrete lines several moves deep. Identifies immediate tactical opportunities for White and any Black counterplay that must be prevented",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical shots for both sides. Verifies that each candidate move does not hang material or allow forced combinations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical shots for both sides. Verifies that proposed moves do not hang material or allow forced sequences",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical shots for both sides. Verifies whether a candidate move allows a forced loss of material",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical shots for both sides. Verifies whether a candidate move allows a forced loss of material or a mating attack",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical shots for both sides. Verifies whether a candidate move hangs material or allows a forced sequence",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and identifies immediate tactical wins or losses for each candidate move. Flags any move that hangs material or allows a forced sequence",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a combination. Reports exact variations and evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a forced loss of material. Reports exact variations and evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a forced loss of material. Reports the principal variation and the critical replies",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a forced loss of material. Reports the principal variation and the refutation of each candidate",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a forced loss. Reports exact variations and evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a forced loss. Reports the principal variation for each candidate",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a tactical shot",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a tactical shot. Reports exact variations and evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow forced losses. Reports exact variations for the meta-agent to evaluate",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow immediate tactics against the team's White pieces",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow immediate tactics. Reports exact variations and evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow immediate tactics. Reports precise variations to the team",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow immediate tactics. Reports principal variations with evaluations",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow immediate tactics. Reports the best concrete continuation for each candidate",
+      "Searches concrete forcing lines (checks, captures, threats) several moves deep and verifies whether each candidate move allows immediate tactical losses or wins. Reports exact variations with evaluated outcomes",
+      "Searches concrete forcing lines (checks, captures, threats, forks, pins) several plies deep and verifies that each candidate move does not hang material or allow a tactic",
+      "Searches forcing lines (checks, captures, threats) several moves deep and identifies concrete tactical wins or refutations for each candidate move. Flags any tactic Stockfish could exploit",
+      "Searches forcing lines (checks, captures, threats) several moves deep and identifies concrete tactics for both sides. Verifies that each proposed move does not hang material or allow a forced loss",
+      "Searches forcing lines (checks, captures, threats) several moves deep and verifies that each candidate move does not hang material or allow a combination. Reports concrete variations with evaluations"
+    ]
+  },
+  "Tactical Calculator": "tactical",
+  "Positional Strategist": "positioning",
+  "Opening And Structure Historian": "opening",
+  "Material Safety Auditor": "defense",
+  "Endgame Technician": "endgame",
+  "Endgame Conversion Specialist": "endgame",
+  "Opening Theorist": "opening",
+  "Opponent Modeler": "anti-engine",
+  "Risk Assessor": "defense",
+  "Endgame Converter": "endgame",
+  "Opening And Structure Specialist": "opening",
+  "Endgame Planner": "endgame",
+  "Material And Safety Auditor": "defense",
+  "Risk And Safety Auditor": "defense",
+  "Material And Risk Auditor": "defense",
+  "Materialist Safety Auditor": "defense",
+  "Opening And Structure Scholar": "opening",
+  "Opening And Structure Analyst": "opening",
+  "Risk Auditor": "defense",
+  "Opening And Structure Theorist": "opening",
+  "Safety Auditor": "defense",
+  "Safety Verifier": "defense"
+}

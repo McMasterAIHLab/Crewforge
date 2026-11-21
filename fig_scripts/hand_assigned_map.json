@@ -1,0 +1,227 @@
+{
+  "_comment": "Fill in a family label for each role name, then pass this file with --role-map. Publish it alongside your results.",
+  "_descriptions": {
+    "Anti Computer Maverick": [
+      "Identifies closed, complex, and highly non-linear positions that disrupt Stockfish's tactical search horizon and calculation style"
+    ],
+    "Anti Computer Pragmatist": [
+      "Focuses on keeping the position closed, minimizing tactical complexity, and steering the game toward structural binds where engines struggle to formulate long-term plans"
+    ],
+    "Anti Computer Profiler": [
+      "Identifies lines and structures where chess engines traditionally struggle, such as highly closed, slow positions with long-term maneuvering where deep calculation is less effective",
+      "Identifies lines that steer Stockfish into closed, complex strategic positions where engine evaluation heuristics are less effective",
+      "Steers the game toward closed, complex positional setups where heuristic evaluation is difficult for engines, avoiding sharp tactical lines"
+    ],
+    "Anti Computer Specialist": [
+      "Aims to steer the game into closed, complex strategic structures where engines cannot easily leverage brute-force calculation depth",
+      "Analyzes moves specifically through the lens of engine weaknesses, aiming to steer Stockfish into closed, complex strategic scenarios where concrete calculation is less effective",
+      "Analyzes moves through the lens of computer heuristic limitations, steering the game toward closed, complex maneuvers where Stockfish struggles to formulate long-term plans",
+      "Exploits known vulnerabilities in engine play, such as steering the game toward closed, hyper-complex positions where deep calculation is less effective than strategic planning",
+      "Formulates non-standard, closed, and highly complex strategic maneuvers designed to exploit engine evaluation blindspots and horizon limits",
+      "Formulates plans aimed at exploiting engine blind spots, preferring closed, structurally complex positions that limit the effectiveness of deep brute-force calculation",
+      "Identifies and advocates for closed, complex, or non-intuitive lines that bypass Stockfish's tactical horizon",
+      "Identifies and steers the game toward positions where chess engines historically struggle, such as closed maneuvers and complex non-tactical imbalances",
+      "Identifies closed positions, maneuvering structures, and anti-computer strategies that exploit Stockfish's horizon limitations and dislike of quiet positions",
+      "Identifies human-style, closed strategic lines and complex maneuvering patterns designed to expose engine blindspots and avoid tactical complications",
+      "Identifies lines that keep the position closed and complex, steering play toward horizons where engines historically struggle to evaluate accurately",
+      "Identifies unconventional, asymmetric lines and human-centric traps that steer Stockfish away from theoretical engine books",
+      "Steers the game toward closed, complex, and non-theoretical positions where human-like strategic intuition outshines raw engine search horizons",
+      "Steers the game toward closed, hyper-complex positions and fortresses where Stockfish's concrete horizon calculation is less effective"
+    ],
+    "Anti Engine Profiler": [
+      "Analyzes moves from the perspective of Stockfish's weaknesses, striving to steer the game into closed, complex, or non-tactical positions where engines struggle to calculate effectively",
+      "Identifies anti-computer strategies, seeking closed, complex positions that neutralize Stockfish's tactical calculation engine",
+      "Identifies moves that exploit known engine blindspots, such as closed positions, horizontal/vertical fortresses, and long-term horizon-effect traps",
+      "Identifies psychological and architectural weaknesses in computer play, seeking closed positions to exploit the limits of Stockfish's horizon"
+    ],
+    "Anti Engine Specialist": [
+      "Identifies lines that exploit known engine biases, such as closed positions, complex strategic horizons, and unusual positional imbalances",
+      "Identifies lines that exploit known engine blindspots, steering the game into closed, complex, and computationally difficult positions"
+    ],
+    "Anti Stockfish Pragmatist": [
+      "Formulates plans to steer the game into closed, complex, or highly asymmetric positions where Stockfish's horizon effect and raw calculation are less effective"
+    ],
+    "Asymmetric Disruptor": [
+      "Identifies anti-computer lines, unconventional move orders, and highly chaotic positions designed to push Stockfish out of its opening book and overload its search horizon"
+    ],
+    "Chaos Provocateur": [
+      "Identifies asymmetric, highly complex, and theoretically non-standard lines to push Stockfish into positions where engine evaluation is hardest"
+    ],
+    "Complexity Maximizer": [
+      "Identifies lines that lead to asymmetrical, highly complex, and chaotic positions designed to strain the engine's search tree and pruning algorithms"
+    ],
+    "Concrete Tactician": [
+      "Analyzes immediate tactical threats, forcing variations, and concrete material gains, ensuring the team does not overlook sharp tactical resources",
+      "Calculates concrete short-term forcing variations, tactical traps, and material exchanges, ensuring no immediate blunders are made",
+      "Evaluates immediate tactical threats, calculates forcing variations, and ensures blunder-free move execution in every turn"
+    ],
+    "Dynamic Attacker": [
+      "Prioritizes maintaining the initiative, creating attacking pressure, and using speculative threats to force Stockfish into defensive, passive positions",
+      "Seeks sharp, double-edged lines, initiative, king-side attacks, and sacrifices to disrupt Stockfish's defensive coordination",
+      "Seizes the initiative, creates space advantages, and coordinates active piece play targeting Stockfish's weaknesses, accepting calculated imbalances"
+    ],
+    "Dynamic Gambiteer": [
+      "Advocates for maximum initiative, space, king attacks, and aggressive pawn storms, accepting high-risk imbalances to disrupt Stockfish's defensive coordination",
+      "Seeks dynamic imbalances, piece sacrifices, and initiative to overload the engine's search parameters in complex positions"
+    ],
+    "Dynamic Tactician": [
+      "Calculates sharp, concrete forcing lines, tactical combinations, and direct threats to disrupt Stockfish's calculations"
+    ],
+    "Endgame Planner": [
+      "Analyzes the feasibility and winning prospects of potential piece trades, simplifications, and long-term transition pathways to the endgame",
+      "Evaluates every middlegame transition and trade through the lens of hypothetical endgames, protecting winning pawn majorities and key piece configurations"
+    ],
+    "Endgame Pragmatist": [
+      "Evaluates transition paths to endgames, focusing on material conversion, pawn promotions, and simplifying the board when holding an advantage"
+    ],
+    "Endgame Profiler": [
+      "Evaluates every move's impact on a potential endgame. Focuses on simplifying the position when advantageous, king safety in the late game, and pawn promotion paths"
+    ],
+    "Endgame Prognosticator": [
+      "Assesses how mid-game transitions, piece trades, and pawn breaks will impact the eventual endgame, aiming for theoretically won simplified positions"
+    ],
+    "Endgame Specialist": [
+      "Analyzes the endgame implications of middlegame transitions, evaluates king safety in simplified positions, and ensures precise technical conversion of material advantages",
+      "Evaluates every middlegame transition and exchange for its ultimate endgame viability, planning pawn promotion paths and simplification strategies",
+      "Evaluates every move based on its transition potential to winning endgames, focusing on pawn simplification and piece conversions",
+      "Evaluates the long-term consequences of piece trades, pawn structures, and transitions into theoretical endgame wins or draws",
+      "Evaluates the long-term endgame consequences of current move choices, focusing on pawn promotion paths, king activity, and theoretical endgame tables",
+      "Evaluates transition opportunities to simplified endgames, assessing theoretical draw margins and technical conversion pathways",
+      "Evaluates transition viability into simplified endgame positions, ensuring favorable pawn structures and king activity"
+    ],
+    "Endgame Technician": [
+      "Evaluates the transition to endgames, assesses pawn structures for long-term viability, and guides simplification strategies when ahead"
+    ],
+    "Endgame Transitioner": [
+      "Evaluates transition feasibility, pushing for piece simplifications and trading down when it mathematically guarantees a won or drawn endgame"
+    ],
+    "Endgame Visionary": [
+      "Evaluates all candidate moves through the lens of potential endgame transitions, aiming for favorable pawn structures and simplified winning conversions"
+    ],
+    "Initiative Seeker": [
+      "Advocates for dynamic, aggressive play, seeking the initiative through sacrifices, active defense, and attacking the black king"
+    ],
+    "Opening Theorist": [
+      "Manages transition phases using deep opening preparation, theoretical mainlines, and database statistics to maintain White's first-move initiative"
+    ],
+    "Positional Grandmaster": [
+      "Evaluates strategic planning, pawn structures, piece placement, and prophylactic play to squeeze the opponent slowly",
+      "Focuses on long-term planning, pawn structures, piece activity, and color complex control to build a sustainable strategic advantage"
+    ],
+    "Positional Planner": [
+      "Focuses on long-term pawn structures, piece outposts, space advantages, and prophylactic moves to gradually restrict Stockfish's activity"
+    ],
+    "Positional Strategist": [
+      "Analyzes pawn structures, piece coordination, and long-term structural advantages to maintain a sustainable, error-free position",
+      "Assesses pawn structures, space advantages, king safety, and long-term positional maneuvering",
+      "Evaluates long-term pawn structures, king safety, piece coordination, and territorial dominance. Focuses on steady, risk-averse accumulation of strategic advantages",
+      "Evaluates long-term pawn structures, piece activity, space advantages, and king safety to build a sustainable strategic position",
+      "Evaluates long-term pawn structures, piece activity, space advantages, and prophylactic defenses to maintain a stable, squeeze-based advantage",
+      "Evaluates long-term pawn structures, space advantages, piece coordination, and prophylaxis to restrict Stockfish's active counterplay",
+      "Evaluates long-term positional integrity, pawn structures, and space advantages, aiming to restrict Black's counterplay in closed or semi-closed structures",
+      "Evaluates long-term positional structures, pawn chains, piece placement, and prophylaxis to maintain a stable, strategic advantage",
+      "Evaluates pawn structures, king safety, space, and piece coordination to build a steady, long-term positional advantage",
+      "Evaluates pawn structures, piece activity, space advantages, and long-term strategic plans to slowly out-maneuver Black",
+      "Evaluates pawn structures, piece activity, space, king safety, and designs long-term positional plans",
+      "Focuses on long-term pawn structure, piece coordination, outposts, weak squares, and prophylactic play to slowly squeeze Black",
+      "Focuses on long-term pawn structure, piece placement, space advantages, and restricting Stockfish's activity through prophylactic play",
+      "Focuses on long-term pawn structures, piece activity, king safety, and slow positional accumulation, aiming for a solid, risk-averse endgame advantage",
+      "Focuses on long-term pawn structures, piece placement, and prophylactic play. Aims to build solid, slowly crushing positions with minimal weaknesses",
+      "Focuses on long-term pawn structures, space advantages, and keeping the position closed to limit Stockfish's deep calculation capacity",
+      "Focuses on long-term pawn structures, space advantages, piece harmony, and restricting Stockfish's counterplay through prophylactic maneuvers",
+      "Focuses on long-term positional advantages, pawn structures, and piece activity, seeking to restrict Black's counterplay",
+      "Focuses on long-term positional advantages, pawn structures, and piece activity. Prioritizes slowly suffocating the opponent and maintaining control over critical squares",
+      "Focuses on long-term positional advantages, pawn structures, piece activity, and maintaining a solid, error-free defensive posture",
+      "Focuses on long-term positional advantages, pawn structures, space, piece placement, and prophylactic play to slowly restrict Stockfish's activity",
+      "Focuses on long-term strategic planning, maintaining pawn structure integrity, controlling key files, and restricting Black's piece activity through slow positional pressure",
+      "Focuses on long-term strategic plans, pawn structures, piece placement, and restricting Black's activity through prophylaxis",
+      "Focuses on long-term structure, pawn skeletons, piece placement, and restricting Black's activity through prophylaxis"
+    ],
+    "Risk Manager": [
+      "Assesses line volatility, maintains defensive integrity, and ensures a high draw margin to prevent Stockfish from exploiting weakness",
+      "Assesses the volatility of positions, manages draw margins, and decides when to simplify or maintain tension"
+    ],
+    "Stockfish Profiler": [
+      "Analyzes the engine's play style to exploit horizons, steer toward closed positions, and avoid sterile theoretical draws"
+    ],
+    "Strategic Grandmaster": [
+      "Focuses on long-term positional advantages, pawn structures, king safety, and piece harmony to build a slow squeeze"
+    ],
+    "Strategic Positionalist": [
+      "Focuses on pawn structures, piece activity, prophylactic defense, and accumulating micro-advantages over long-term horizons"
+    ],
+    "Tactical Calculator": [
+      "Analyzes concrete forcing lines, tactical combinations, and immediate threats up to deep calculation depths",
+      "Analyzes concrete move sequences, calculates forcing lines, identifies immediate tactical threats, and validates safety of proposed moves",
+      "Analyzes concrete, forcing variations, tactical combinations, and immediate material dynamics to ensure absolute safety and exploit direct errors",
+      "Analyzes concrete, forcing variations, tactical combinations, and immediate threats. Ensures every move is tactically sound and mathematically validated",
+      "Analyzes concrete, short-term tactical sequences, forcing moves, sacrifices, and immediate threats to find tactical refutations or opportunities",
+      "Analyzes forcing moves, concrete combinations, king safety, and immediate tactical threats to ensure absolute safety",
+      "Analyzes immediate tactical combinations, forcing lines, and concrete material calculations to prevent blunders and exploit Stockfish's short-term tactical vulnerabilities",
+      "Analyzes immediate, concrete forcing variations, mating nets, and tactical defenses to ensure we do not blunder against Stockfish's perfect calculation",
+      "Analyzes sharp, concrete variations, calculates forcing sequences, and looks for immediate tactical opportunities or defensive vulnerabilities",
+      "Calculates deep concrete variations, identifying immediate tactical opportunities, threats, forcing moves, and tactical blunders",
+      "Calculates forced lines, mating nets, tactical combinations, and immediate threats to ensure absolute concrete accuracy",
+      "Calculates forcing moves, tactical combinations, and concrete variations to find immediate paths to material gain or checkmate",
+      "Calculates short-to-medium term forcing sequences, tactical combinations, and immediate threats. Acts as a sanity check against material loss or tactical blunders",
+      "Computes concrete, deep move trees to identify forced lines, tactical shots, and immediate defensive threats",
+      "Evaluates concrete forcing lines, tactical combinations, and immediate threats to ensure absolute concrete soundness",
+      "Evaluates concrete forcing lines, tactical combinations, blunders, and exact calculation of depth to match Stockfish's concrete calculation abilities",
+      "Evaluates concrete lines, checks for immediate tactical threats, blunder-checks all moves, and identifies forcing combinations",
+      "Evaluates concrete move sequences, forcing variations, sacrifices, and tactical refutations of Stockfish's defensive tries",
+      "Focuses on concrete short-term calculations, brute-force move verification, and preventing immediate tactical blunders or traps",
+      "Focuses purely on concrete, short-term calculation, analyzing forcing variations, immediate threats, and tactical combinations to ensure move safety",
+      "Identifies concrete combinations, forcing variations, tactical vulnerabilities, and calculates short-term brute-force lines to exploit immediate mistakes",
+      "Identifies immediate tactical opportunities, calculates concrete forcing lines, and ensures tactical soundness to prevent blunders against Stockfish's flawless calculation",
+      "Identifies immediate tactical opportunities, forcing variations, sacrifices, and concrete mating nets while calculating precise line variations to prevent blunders",
+      "Identifies immediate tactical threats, forcing lines, sacrifices, and performs deep concrete calculation to find short-term tactical advantages",
+      "Performs deep, concrete calculation of forcing lines, identifies immediate tactical threats, and performs rigorous blunder checks on all proposed moves",
+      "Performs deep, concrete calculation of forcing lines, tactical combinations, and immediate threats to ensure absolute move safety"
+    ],
+    "Theoretical Archivist": [
+      "Applies classical opening theory, GM database statistics, and tablebase endgames to guide the team through established paths and avoid early traps",
+      "References opening databases, correspondence games, and known engine draw/victory patterns to steer the game into theoretically sound territories"
+    ],
+    "Theoretical Db Expert": [
+      "Consults opening books, historical grandmaster databases, and endgame tablebases to ensure mathematically sound and theoretically verified moves"
+    ],
+    "Theoretical Purist": [
+      "Ensures adherence to elite-level opening theory, exact endgame tablebases, and objective, mathematically sound chess principles"
+    ]
+  },
+  "Tactical Calculator": "tactical",
+  "Positional Strategist": "positioning",
+  "Anti Computer Specialist": "anti-engine",
+  "Endgame Specialist": "endgame",
+  "Anti Engine Profiler": "anti-engine",
+  "Dynamic Attacker": "attack",
+  "Anti Computer Profiler": "anti-engine",
+  "Concrete Tactician": "tactical",
+  "Dynamic Gambiteer": "attack",
+  "Theoretical Archivist": "theory",
+  "Anti Engine Specialist": "anti-engine",
+  "Endgame Planner": "endgame",
+  "Positional Grandmaster": "positioning",
+  "Risk Manager": "defense",
+  "Stockfish Profiler": "anti-engine",
+  "Endgame Profiler": "endgame",
+  "Chaos Provocateur": "anti-engine",
+  "Anti Stockfish Pragmatist": "anti-engine",
+  "Theoretical Db Expert": "theory",
+  "Endgame Transitioner": "endgame",
+  "Endgame Visionary": "endgame",
+  "Dynamic Tactician": "tactical",
+  "Endgame Prognosticator": "endgame",
+  "Initiative Seeker": "attack",
+  "Endgame Pragmatist": "endgame",
+  "Positional Planner": "positioning",
+  "Strategic Positionalist": "positioning",
+  "Anti Computer Pragmatist": "anti-engine",
+  "Endgame Technician": "endgame",
+  "Complexity Maximizer": "anti-engine",
+  "Asymmetric Disruptor": "anti-engine",
+  "Opening Theorist": "opening",
+  "Strategic Grandmaster": "positioning",
+  "Anti Computer Maverick": "anti-engine",
+  "Theoretical Purist": "theory"
+}

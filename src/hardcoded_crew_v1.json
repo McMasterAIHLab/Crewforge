@@ -1,0 +1,28 @@
+{
+  "hardcoded_crew_v1": [
+    {
+      "agent": "Fixation Agent",
+      "talks": ["Pattern Agent", "Deep Analysis Agent"],
+      "responsibility": "act first each turn. Name at most three squares or piece relationships that decide this position (a threat, hanging material, a weak king, a key file or diagonal, a critical endgame square), giving one short clause for why each matters, and ignore the rest of the board. Post this once to the common space; do not repeat or expand it unless the board changes.",
+      "rationale_brief": "is to narrow the board to the few squares that actually decide the move"
+    },
+    {
+      "agent": "Pattern Agent",
+      "talks": ["Deep Analysis Agent"],
+      "responsibility": "read the Fixation Agent's squares and speak only if you confidently recognise a concrete pattern (a known opening line, a tactical motif, a standard plan, or an endgame technique). If so, name the pattern and the single move it suggests, in UCI, in one line. If no pattern clearly applies, say 'no pattern' once and then stay silent, since the position may be unique. Never guess a move without a pattern.",
+      "rationale_brief": "is to supply a known strong move when the position matches a familiar pattern"
+    },
+    {
+      "agent": "Deep Analysis Agent",
+      "talks": ["Sanity Check Agent", "Fixation Agent", "Pattern Agent"],
+      "responsibility": "wait for the Fixation Agent's squares and any Pattern Agent suggestion, then commit to exactly ONE candidate move in UCI. Verify it concretely one to three plies deep and state the opponent's best reply in one line, then send the move to the Sanity Check Agent. Change your move only if the Sanity Check Agent gives a concrete refutation; otherwise hold it. Do not list several moves and do not re-open analysis once it is settled.",
+      "rationale_brief": "is to turn the team's focus and patterns into one concrete, calculated move"
+    },
+    {
+      "agent": "Sanity Check Agent",
+      "talks": ["Deep Analysis Agent"],
+      "responsibility": "review only the Deep Analysis Agent's proposed move for an immediate blunder it may have missed: hanging a piece, allowing a forcing tactic (fork, pin, skewer, or back-rank mate), or losing material to a single reply. If the move is safe, reply with just 'safe'. If you find a concrete refutation, state it in one line and ask for a new move. Do not propose moves yourself and do not raise vague or speculative doubts.",
+      "rationale_brief": "is to catch obvious blunders before the team commits, without slowing it down"
+    }
+  ]
+}

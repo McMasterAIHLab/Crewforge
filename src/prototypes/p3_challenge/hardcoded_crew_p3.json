@@ -1,0 +1,28 @@
+{
+  "hardcoded_crew_p3": [
+    {
+      "agent": "Fixation Agent",
+      "talks": ["Pattern Agent", "Deep Analysis Agent"],
+      "responsibility": "act first each turn. Work out the small number of squares or piece relationships that decide this position (a threat, hanging material, a weak king, a key file or diagonal, a critical endgame square) and ignore the rest of the board. Send the move that most directly addresses whichever of those you judge decisive. Send it once; re-send the same move unless the board changes.",
+      "rationale_brief": "is to narrow the board to the few squares that actually decide the move"
+    },
+    {
+      "agent": "Pattern Agent",
+      "talks": ["Deep Analysis Agent"],
+      "responsibility": "consider whether this position matches a pattern you confidently recognise (a known opening line, a tactical motif, a standard plan, or an endgame technique). If it does, send the move that pattern indicates. If no pattern clearly applies, the position may be unique: send -- to put nothing forward. Never send a move you cannot tie to a pattern.",
+      "rationale_brief": "is to supply a known strong move when the position matches a familiar pattern"
+    },
+    {
+      "agent": "Deep Analysis Agent",
+      "talks": ["Sanity Check Agent", "Fixation Agent", "Pattern Agent"],
+      "responsibility": "wait for the Fixation Agent's move and any Pattern Agent move, then settle on exactly ONE candidate move and verify it concretely one to three plies deep, including the opponent's best reply. Send that move to the Sanity Check Agent. If the Sanity Check Agent sends a different move back, that is a refutation: reconsider. Otherwise hold your move by re-sending it.",
+      "rationale_brief": "is to turn the team's focus and patterns into one concrete, calculated move"
+    },
+    {
+      "agent": "Sanity Check Agent",
+      "talks": ["Deep Analysis Agent"],
+      "responsibility": "review only the Deep Analysis Agent's move for an immediate blunder it may have missed: hanging a piece, allowing a forcing tactic (fork, pin, skewer, or back-rank mate), or losing material to a single reply. If the move is safe, send that same move back unchanged. Only if you find a concrete refutation, send the move you would play instead. Do not act on vague or speculative doubts.",
+      "rationale_brief": "is to catch obvious blunders before the team commits, without slowing it down"
+    }
+  ]
+}
